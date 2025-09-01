@@ -8,7 +8,7 @@ It demonstrates a clean microservice setup with CRUD operations for managing `Pr
 
 ---
 
-## 🚀 Features
+## Features
 - Java 21 & Spring Boot 3.5.5
 - REST API with CRUD endpoints
 - PostgreSQL database
@@ -19,7 +19,7 @@ It demonstrates a clean microservice setup with CRUD operations for managing `Pr
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 product-service/
 ├── src/main/java/com/example/productservice
@@ -49,7 +49,7 @@ product-service/
 
 ---
 
-## ⚙️ Setup & Run
+## Setup & Run
 
 ### 1. Clone the repo
 ```bash
@@ -75,7 +75,7 @@ App runs at: **[http://localhost:8080](http://localhost:8080)**
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 | Method | Endpoint             | Description        |
 | ------ | -------------------- | ------------------ |
@@ -130,7 +130,7 @@ docker-compose up --build
 ## Notes
 
 * If you use **PostgreSQL 17**, Flyway may fail with `Unsupported Database`.
-  ✅ Recommended: Use PostgreSQL **16** for Flyway compatibility.
+  Recommended: Use PostgreSQL **16** for Flyway compatibility.
 * If you don’t need migrations, disable Flyway in `application.yml`:
 
   ```yaml
