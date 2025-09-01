@@ -1,4 +1,3 @@
-
 # Product Service (Spring Boot 3.5.5 + Java 21 + PostgreSQL + Flyway)
 
 A simple **REST API microservice** built with **Java 21**, **Spring Boot 3.5.5**, **PostgreSQL**, **Flyway**, and **Maven**.  
@@ -18,7 +17,7 @@ It demonstrates a clean microservice setup with CRUD operations for managing `Pr
 ---
 
 ## Project Structure
-
+````
 product-service/
 ├── src/main/java/com/example/productservice
 │    ├── controller/       # REST controllers
@@ -36,7 +35,6 @@ product-service/
 ├── Dockerfile
 ├── pom.xml
 └── README.md
-
 ````
 
 ## Prerequisites
@@ -143,5 +141,4 @@ docker-compose up --build
 
 MIT License © 2025
 
-```
 
