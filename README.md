@@ -1,6 +1,4 @@
 
-
-```markdown
 # Product Service (Spring Boot 3.5.5 + Java 21 + PostgreSQL + Flyway)
 
 A simple **REST API microservice** built with **Java 21**, **Spring Boot 3.5.5**, **PostgreSQL**, **Flyway**, and **Maven**.  
