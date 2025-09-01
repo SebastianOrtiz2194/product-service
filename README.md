@@ -20,7 +20,6 @@ It demonstrates a clean microservice setup with CRUD operations for managing `Pr
 ---
 
 ## 📂 Project Structure
-```
 
 product-service/
 ├── src/main/java/com/example/productservice
@@ -42,9 +41,7 @@ product-service/
 
 ````
 
----
-
-## 🛠️ Prerequisites
+## Prerequisites
 - Java 21
 - Maven 3.9+
 - Docker & Docker Compose
@@ -100,7 +97,7 @@ App runs at: **[http://localhost:8080](http://localhost:8080)**
 
 ---
 
-## 🧪 Testing with Postman
+## Testing with Postman
 
 A Postman collection is included:
 
@@ -114,7 +111,7 @@ postman/ProductService.postman_collection.json
 
 ---
 
-## 🐳 Docker Build & Run (App + DB)
+## Docker Build & Run (App + DB)
 
 Build the app image:
 
@@ -130,7 +127,7 @@ docker-compose up --build
 
 ---
 
-## 📝 Notes
+## Notes
 
 * If you use **PostgreSQL 17**, Flyway may fail with `Unsupported Database`.
   ✅ Recommended: Use PostgreSQL **16** for Flyway compatibility.
@@ -144,7 +141,7 @@ docker-compose up --build
 
 ---
 
-## 📜 License
+##  License
 
 MIT License © 2025
 
